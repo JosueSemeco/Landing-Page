@@ -6,29 +6,63 @@
     <title>Beats Studio Pro</title>
   </head>
   <body href="../src/input.css">
-    <div class="bg-gray-950 h-12 w-full flex items-center justify-between">
-        <img src="../assets/beatslogo.png" alt="beats logo" class="size-10 ml-1 justify-start">
-        <h1 class="text-white font-bold text-xl">Beats Studio Pro</h1>
-        <div class=" mr-2.5">
-            <img src="../assets/menu.png" alt="menu logo" class="size-8">
-        </div>
-    </div>
-    <div class="relative w-full text-center">
+    <header class="bg-gray-950 h-12 w-full flex items-center justify-between">
       <img
-        src="../assets/hero.jpeg"
+        src="../dist/assets/beatslogo.png"
+        alt="beats logo"
+        class="size-10 ml-1 justify-start"
+      />
+      <h1 class="text-white font-extrabold text-xl">Beats Studio Pro</h1>
+      <div class="mr-2.5">
+        <img src="../dist/assets/menu.png" alt="menu logo" class="size-8"/>
+      </div>
+    </header>
+    <section class="relative w-full text-center -mb-px">
+      <img
+        src="../dist/assets/hero.jpeg"
         alt="man with headphones"
         class="w-full h-auto object-cover"
       />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-100"
+        class="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-100"
       ></div>
       <div
         class="absolute inset-0 flex flex-col justify-end items-center text-white"
       >
-        <h1 class="text-xl font-bold text-center px-10 mb-2">
+        <h1 class="text-xl font-extrabold text-center px-10 mb-2">
           Live your best audio experience with Beats Studio Pro
         </h1>
       </div>
-    </div>
+    </section>
+    <section class="relative w-full h-auto bg-gray-950">
+        <div class="flex justify-between pt-20 items-center">
+            <div class="text-center ml-5">
+                <h1 class="text-white font-extrabold text-lg">Hi-Fi Audio Quality</h1>
+                <p class="text-white text-md">Listen to your favorite song like never before, an experience you have never felt</p>
+            </div>
+            <img src="../dist/assets/style-girl.jpg" alt="girl with headphones" class="size-36 m-6">
+        </div>
+        <div class="flex justify-between pt-5 items-center">
+            <img src="../dist/assets/headphones-case.jpg" alt="headphones case" class="size-36 m-6">
+            <div class="text-center mr-5">
+                <h1 class="text-white font-extrabold text-lg">Styled Design</h1>
+                <p class="text-white text-md">Both beautiful and comfy, giving the best of both worlds, without losing a bit of the premium experience</p>
+            </div>
+        </div>
+        <div class="flex justify-between pt-5 items-center">
+            <div class="text-center ml-5">
+                <h1 class="text-white font-extrabold text-lg">Take them anywhere</h1>
+                <p class="text-white text-md">Extremly portable and resistant, perfect for outside activities</p>
+            </div>
+            <img src="../dist/assets/outside.jpg" alt="girl with headphones outside" class="size-36 m-6">
+        </div>
+        <div class="flex justify-between pt-5 items-center">
+            <img src="../dist/assets/headphones.jpg" alt="girl with headphones" class="size-36 m-6">
+            <div class="text-center mr-5">
+                <h1 class="text-white font-extrabold text-lg">High-Capacity Battery</h1>
+                <p class="text-white text-md">Up to 40 hours of audio with a single charge, powered by its 640mAh</p>
+            </div>
+        </div>
+    </section>
   </body>
 </html>
